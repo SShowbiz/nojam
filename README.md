@@ -1,6 +1,6 @@
 # BAEKJOON problem solving
 
-## repositoriy structure
+## repository structure
 
 ```
 ├── nojam
@@ -13,4 +13,4 @@
 
 ## afterworks
 
-I'll add classification by alogrithm i used later
+- Add classifications by algorithms
