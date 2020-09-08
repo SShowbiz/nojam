@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-  int a; int b; int c;
-  cin >> a >> b >> c;
-  cout << (a+b)%c<< "\n";
-  cout << ((a%c) + (b%c))%c << "\n";
-  cout << (a*b)%c << "\n";
-  cout << ((a%c)*(b%c))%c;
-  return 0;
+int main() {
+	int a;
+	int b;
+	int c;
+	cin >> a >> b >> c;
+	cout << (a + b) % c << "\n";
+	cout << ((a % c) + (b % c)) % c << "\n";
+	cout << (a * b) % c << "\n";
+	cout << ((a % c) * (b % c)) % c;
+	return 0;
 }
